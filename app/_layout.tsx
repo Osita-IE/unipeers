@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import "./globals.css"
+import "./globals.css";
 
 export default function RootLayout() {
   return (
@@ -22,6 +22,13 @@ export default function RootLayout() {
       options={{
         headerShown:false,
         title:"About Unipeers"
+      }}/>
+      
+      <Stack.Screen 
+      name="event-details"
+      options={{
+        headerShown:false,
+        title:"Event details"
       }}/>
     </Stack>
   )
