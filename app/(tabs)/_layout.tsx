@@ -15,8 +15,8 @@ export default function _Layout () {
                 headerShown: false,
                 tabBarIcon: ({ color }) => 
                 <MaterialIcons 
-                name="dynamic-feed" 
-                size={34} 
+                name="home" 
+                size={30} 
                 color={color} />
             }}/>
 
@@ -28,7 +28,7 @@ export default function _Layout () {
                 tabBarIcon: ({ color }) => 
                 <FontAwesome5 
                 name="user" 
-                size={34} 
+                size={30} 
                 color={color} />
             }}/>
 
@@ -40,7 +40,19 @@ export default function _Layout () {
                 tabBarIcon: ({ color }) => 
                 <MaterialIcons 
                 name="bookmark" 
-                size={34} 
+                size={30} 
+                color={color} />
+            }}/>
+            
+            <Tabs.Screen
+            name="create"
+            options={{
+                title: "Create",
+                headerShown: false,
+                tabBarIcon: ({ color }) => 
+                <MaterialIcons 
+                name="add-circle-outline" 
+                size={30} 
                 color={color} />
             }}/>
         </Tabs>
