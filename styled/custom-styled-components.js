@@ -40,5 +40,5 @@ const Blockquote = styled.View`
     margin: 0;
 `;
 
-export { H1, H2, H3, Header, Main, Main, P, P, Span, Span };
+export { Blockquote, Division, H1, H2, H3, Header, Main, P, Span };
 
