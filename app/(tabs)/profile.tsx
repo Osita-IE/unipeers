@@ -44,15 +44,15 @@ export default function Profile () {
         </View>
 
         {/* bottom section */}
-        <View className='flex flex-row items-center gap-6'>
-          <Link href="/" className=" px-3 py-2 rounded-md bg-teal-700">
-            <View className='flex flex-row items-center gap-3'>
+        <View className='flex flex-row gap-6 items-center'>
+          <Link href="/" className="flex flex-row items-center px-3 py-2 rounded-md bg-teal-700">
+            <View className='flex flex-row p-2 justify-center items-center gap-3'>
               <FontAwesome name="pencil-square-o" size={24} color="white" />
               <Text className='text-lg font-semibold text-white'>Update Profile</Text>
             </View>
           </Link>
 
-          <Pressable className="flex flex-row items-center gap-3 px-3 py-2 rounded-md bg-red-700">
+          <Pressable className="flex flex-row items-center gap-3 px-3 py-3 rounded-md bg-red-700">
           <MaterialIcons name="logout" size={24} color="white" />
           <Text className='text-lg font-semibold text-white'>Sign out</Text>
           </Pressable>
